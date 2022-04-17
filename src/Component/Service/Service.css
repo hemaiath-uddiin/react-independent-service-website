@@ -1,0 +1,11 @@
+button.serviceBtn {
+    background: #8383f3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 7px;
+} 
+.service-details p {
+    font-weight: bold;
+}

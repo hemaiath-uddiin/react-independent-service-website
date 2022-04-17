@@ -1,0 +1,24 @@
+[ 
+    
+    { 
+        "id": "1", 
+         "title": "private tour",
+          "desc": "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
+           "img": "./service.jpg"
+  
+      }, 
+      { 
+        "id": "2", 
+         "title": "RIVERS and LAKES",
+          "desc":  "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
+          "img": "./service.jpg"
+      },
+      { 
+        "id": "3", 
+         "title": "SPECIES",
+          "desc":  "Arctic Char, Brown Trout, Sea Trout, Atlantic Salmon", 
+          "img": "./service.jpg"
+      }
+
+
+ ]
