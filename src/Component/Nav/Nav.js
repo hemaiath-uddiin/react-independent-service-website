@@ -23,7 +23,7 @@ function Navbar(props) {
                 <Link class="nav-link" to="/">About</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/">Login</Link>
+                <Link class="nav-link" to="/login">Login</Link>
               </li>
 
 
