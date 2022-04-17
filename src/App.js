@@ -3,7 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Component/Home/Home';
  import Nav from "./Component/Nav/Nav.js"
-import Service from './Component/Service/Service';
+import Service from './Component/Service/Service'; 
+import Checkout from "./Component/Checkout/Ceckout"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Routes> 
             <Route path='/' element={<Home></Home>}>  </Route>
             <Route path='/service' element={<Service></Service>}>  </Route>
+            <Route path='/checkout/:id' element={<Checkout></Checkout>}>  </Route>
 
           </Routes>
     </div>
