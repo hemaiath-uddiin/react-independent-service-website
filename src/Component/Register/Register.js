@@ -1,11 +1,26 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../fire.base.init';
 function Register(props) {
     const [name,setName] = useState('')
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('') 
-     const handleName=(e)=>{ 
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useCreateUserWithEmailAndPassword(auth);
+    
+      if (error) {
+        return (
+          <div>
+            <p>Error: {error.message}</p>
+          </div>
+        );
+      }
+    const handleName=(e)=>{ 
           setName(e.target.value)
      }; 
      const handleEmail=(e)=>{ 
@@ -16,7 +31,8 @@ function Register(props) {
 }; 
    const handleForm=(e)=>{ 
          e.preventDefault() 
-         console.log(name,email,password);
+         console.log(name,email,password); 
+         createUserWithEmailAndPassword(email,password)
 
    }
     return (
