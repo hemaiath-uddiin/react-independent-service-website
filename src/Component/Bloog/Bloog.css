@@ -1,0 +1,5 @@
+.card-header {background:  #5555ef !important;
+    color: white;
+    text-transform: capitalize;}
+
+.card-body {background: #484848;color: #fffcfc;font-weight: bold;font-size: 17px; }
