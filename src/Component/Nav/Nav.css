@@ -1,4 +1,14 @@
 li.nav-item {
     font-size: 20px;
     font-weight: bold;
+}  
+.title {
+    color: #ffffff;
+    font-size: 41px;
+    font-weight: bold;
+} 
+p.des {
+    font-size: 23px;
+    color: whti;
+    font-weight: bold;
 }

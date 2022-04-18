@@ -1,3 +1,8 @@
 .btns {
-    display: flex;
+    display: flex !important;
+} 
+.text-center.text-danger {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
 }

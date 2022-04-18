@@ -13,11 +13,10 @@ const Login = () => {
     const [
         signInWithEmailAndPassword,
         user,loading,
-        error,
+        error
         
       ] = useSignInWithEmailAndPassword(auth);
-      
-      
+          
       const handleEmail =(e)=>{ 
              setEmail(e.target.value)
        } 
@@ -33,7 +32,9 @@ const Login = () => {
            
           
           
-    }  
+    }    
+    
+      
     const navigate = useNavigate()
     if(user){ 
         navigate("/")
@@ -41,7 +42,16 @@ const Login = () => {
     
      // sign in with google.............................
     const [signInWithGoogle] = useSignInWithGoogle(auth);
-   
+    if (loading) {
+        return <p>Loading...</p>;
+      } 
+      if (error) {
+        return (
+          <div className="text-center text-danger">
+            <p>Error: {error.message}</p>
+          </div>
+        );
+      }
     return (
         <div className='container w-50'>
             <form onSubmit={loginFormHandle} >

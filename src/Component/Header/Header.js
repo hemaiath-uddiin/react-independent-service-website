@@ -12,8 +12,8 @@ function Header(props) {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 className='title'>Wellcome to Travel Guide Website</h3>
+      <p className='des' > we are giving the best tourist package with Reasonable Price</p >
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -24,8 +24,8 @@ function Header(props) {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h3 className='title' >Wellcome to Travel Guide Website</h3>
+      <p className='des' >we are giving the best tourist package with Reasonable Price</p >
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -36,8 +36,8 @@ function Header(props) {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h3 className='title'>Wellcome to Travel Guide Website</h3>
+      <p className='des' >we are giving the best tourist package with Reasonable Price</p >
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
