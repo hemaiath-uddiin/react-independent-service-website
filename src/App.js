@@ -14,7 +14,8 @@ import Bloog from './Component/Bloog/Bloog';
 function App() {
   return (
     <div className="App">
-        <Nav></Nav> 
+        <Nav></Nav>  
+        
           <Routes> 
             <Route path='/' element={<Home></Home>}>  </Route>
             <Route path='/service' element={<Service></Service>}>  </Route>
