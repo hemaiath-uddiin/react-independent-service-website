@@ -1,6 +1,6 @@
 # Getting Started with Travel Guide App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Travel guide app](https://travel-guide-82920.web.app/).
 
 ## Available Scripts
 
