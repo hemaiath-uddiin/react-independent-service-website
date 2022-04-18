@@ -2,22 +2,25 @@
     
     { 
         "id": "1", 
-         "title": "private tour",
+         "title": "Private Tour",
           "desc": "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
-           "img": "./service.jpg"
+           "img": "./service.jpg" ,
+           "price": "5000$"
   
       }, 
       { 
         "id": "2", 
          "title": "RIVERS and LAKES",
           "desc":  "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
-          "img": "./service.jpg"
+          "img": "./service2.jpg",
+          "price": "1000$"
       },
       { 
         "id": "3", 
          "title": "SPECIES",
           "desc":  "Arctic Char, Brown Trout, Sea Trout, Atlantic Salmon", 
-          "img": "./service.jpg"
+          "img": "./service3.jpg" ,
+          "price": "2000$"
       }
 
 

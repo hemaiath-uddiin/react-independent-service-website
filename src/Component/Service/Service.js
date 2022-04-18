@@ -19,7 +19,7 @@ function Service(props) {
                   { 
                      service.map((data)=>{ 
                          return( 
-                             <div className="col-lg-4 box "> 
+                             <div className="col-lg-4 d-block d-lg-flex box "> 
                                  <Services key={data.id} data={data}></Services>
                              
                              </div>

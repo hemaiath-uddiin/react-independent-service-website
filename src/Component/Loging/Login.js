@@ -1,36 +1,47 @@
 import React,{useState } from 'react';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, Navigate, useNavigate,  } from 'react-router-dom';
-import auth from '../../fire.base.init';
+import auth from '../../fire.base.init'; 
+import "./Loging.css" 
+
 
 
 const Login = () => {
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('') 
+      // sing in with email and passord .................
     const [
         signInWithEmailAndPassword,
-        user,
-        loading,
+        user,loading,
         error,
+        
       ] = useSignInWithEmailAndPassword(auth);
-       const handleEmail =(e)=>{ 
+      
+      
+      const handleEmail =(e)=>{ 
              setEmail(e.target.value)
        } 
        const handlePassword =(e)=>{ 
         setPassword(e.target.value)
-  } 
+  }     
+   
+    // login form handle................
     const loginFormHandle=(e)=>{ 
            e.preventDefault();
            console.log(email,password);  
            signInWithEmailAndPassword(email,password)
-          
+           
           
           
     }  
     const navigate = useNavigate()
     if(user){ 
         navigate("/")
-    }
+    }  
+    
+     // sign in with google.............................
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
+   
     return (
         <div className='container w-50'>
             <form onSubmit={loginFormHandle} >
@@ -45,7 +56,9 @@ const Login = () => {
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button> 
-                 <h4> Have no account <span> <Link to="/register"> Create an account  </Link> </span> </h4> 
+                 <h4> Have no account <span> <Link to="/register"> Create an account  </Link> </span> </h4>  
+                   <h2 className='text-center'> or</h2> 
+                    <button onClick={()=>{signInWithGoogle()}} className=' btn btn-primary m-auto btns'>sign In Google </button>
             </form>
         </div>
     );
