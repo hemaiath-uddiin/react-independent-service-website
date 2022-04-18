@@ -9,6 +9,7 @@ import Login from './Component/Loging/Login';
 import Register from './Component/Register/Register';
 import RequirAuth from './Component/RequiredAuth/RequirAuth';
 import Bloog from './Component/Bloog/Bloog';
+import About from './Component/About/About';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/' element={<Home></Home>}>  </Route>
             <Route path='/service' element={<Service></Service>}>  </Route>
             <Route path='/blog' element={<Bloog></Bloog>}>  </Route>
+            <Route path='/about' element={<About></About>}>  </Route>
              
             <Route path='/login' element={<Login></Login>}>  </Route>
             
