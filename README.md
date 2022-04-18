@@ -4,7 +4,12 @@ This project was bootstrapped with [Travel guide app](https://travel-guide-82920
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: 
+* beatiful Ui Design 
+* usign React Bootstrap 
+* Fire Base Authentication 
+* Usign Fire base Hook 
+* making user friendly
 
 ### `npm start`
 
