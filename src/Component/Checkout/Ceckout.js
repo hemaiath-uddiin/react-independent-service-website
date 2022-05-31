@@ -9,7 +9,8 @@ function Ceckout({children}) {
     const {id} = useParams()
     return (
         <div>
-            <h2 className='text-center'> checkout {id} </h2> 
+            <h2 className='text-center'> checkout {id} </h2>  
+             <h2> well come to page</h2>
           
         </div>
     );
