@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Getting Started with Travel Guide App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Travel guide app](https://travel-guide-82920.web.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: 
+* beatiful Ui Design 
+* usign React Bootstrap 
+* Fire Base Authentication 
+* Usign Fire base Hook 
+* making user friendly
 
 ### `npm start`
 
