@@ -2,14 +2,15 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Service.css'
 function Services({data}) {
-    const { id,desc,title,img,price} = data  ;
+    const { _id,desc,title,img,price} = data  ;
     const navigate = useNavigate()
-      const navigateCheckout =(id)=>{ 
-         navigate(`/checkout/${id}`)
-      }
+      const navigateCheckout =(_id)=>{ 
+         navigate(`/checkout/${_id}`)
+      } 
+       
     return (
         <div>
-              <div class="card" >
+              <div className="card cards" >
                 <img className='img-fluid ' src={img} alt="..."/>
                     <div class="card-body ">
                       <article className='service-details'> 
@@ -17,12 +18,14 @@ function Services({data}) {
                        
                        <p className ="card-text "> {desc}</p>  
                        <p> price: {price}  </p>
-                        <button onClick={()=>{navigateCheckout(id)}} className='serviceBtn'> More Details</button>
+                      
                         
-                      </article>
+                      </article> 
+                     
                         
                     </div>
-            </div>
+            </div> 
+            <button onClick={()=>{navigateCheckout(_id)}} className='serviceBtn'> More Details</button>
         </div>
     );
 }

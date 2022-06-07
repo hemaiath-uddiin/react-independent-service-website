@@ -2,25 +2,25 @@
     
     { 
         "id": "1", 
-         "title": "Private Tour",
-          "desc": "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
-           "img": "./service.jpg" ,
-           "price": "5000$"
+           "title": "Bullet offer",
+          "desc": " we have been offer a discount package get it before the  available " ,
+           "img": "https://images.pexels.com/photos/8230956/pexels-photo-8230956.jpeg?cs=srgb&dl=pexels-rodnae-productions-8230956.jpg&fm=jpg" ,
+           "price": "20%"
   
       }, 
       { 
         "id": "2", 
-         "title": "RIVERS and LAKES",
-          "desc":  "Locations // Approx. 1-2 hour´s drive from Reykjavik." ,
-          "img": "./service2.jpg",
-          "price": "1000$"
+         "title": " vallentines day offer",
+          "desc":  "Enjoy the Unique Flavours of Canada Over Spectacular Views for This Valentine's Day." ,
+          "img": "https://images.pexels.com/photos/1660995/pexels-photo-1660995.jpeg?cs=srgb&dl=pexels-tom%C3%A1%C5%A1-mal%C3%ADk-1660995.jpg&fm=jpg",
+          "price": "50%"
       },
       { 
         "id": "3", 
-         "title": "SPECIES",
-          "desc":  "Arctic Char, Brown Trout, Sea Trout, Atlantic Salmon", 
-          "img": "./service3.jpg" ,
-          "price": "2000$"
+         "title": "Boisaki offer",
+          "desc":  " can enjoy the boisaki offer with Your family and friends and bookig the package", 
+          "img": "https://images.pexels.com/photos/6758172/pexels-photo-6758172.jpeg?cs=srgb&dl=pexels-maria-lucia-p-sampaio-6758172.jpg&fm=jpg" ,
+          "price": "30$"
       }
 
 

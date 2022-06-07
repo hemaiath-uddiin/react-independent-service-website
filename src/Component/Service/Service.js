@@ -4,7 +4,7 @@ import Services from './Services';
 function Service(props) {
     const [service, setservice] = useState([]);
     useEffect(() => {
-        fetch("data.json")
+        fetch("http://localhost:5000/service")
             .then(res => res.json())
             .then(data => setservice(data))
 
@@ -20,7 +20,7 @@ function Service(props) {
                      service.map((data)=>{ 
                          return( 
                              <div className="col-lg-4 d-block d-lg-flex box "> 
-                                 <Services key={data.id} data={data}></Services>
+                                 <Services key={data._id} data={data}></Services>
                              
                              </div>
                          )

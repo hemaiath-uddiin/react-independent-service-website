@@ -1,0 +1,29 @@
+.card.cards {
+    width: 100%;
+    height: 100%;
+} 
+
+.description {
+    background: #f9f9f9;
+}
+
+article.article {
+    background: #fffdfd;
+    margin: 10px;
+    padding: 20px;
+} 
+.container.check_out {
+    margin-top: 6%;
+} 
+/* p.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff340f;
+    text-transform: capitalize;
+}  */
+ .p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff320d!important ;
+    text-transform: capitalize;
+}

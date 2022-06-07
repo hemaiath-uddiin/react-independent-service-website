@@ -4,8 +4,13 @@ button.serviceBtn {
     font-weight: bold;
     border: none;
     padding: 7px 12px;
-    border-radius: 7px;
-} 
+    border-radius: 7px; 
+    width: 100%;
+}  
+.cards { 
+    width: 100%; 
+    height: 100%;
+}
 .service-details p {
     font-weight: bold;
 }

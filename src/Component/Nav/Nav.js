@@ -13,7 +13,7 @@ function Navbar(props) {
    }
   return (
     <div>
-      <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar  navbar-expand-lg navbar-light  ">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/"> Travel guide</Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +27,7 @@ function Navbar(props) {
               <li class="nav-item">
                 <Link class="nav-link" to="/service">Services</Link>
               </li> 
-              <li class="nav-item">
-                <Link class="nav-link" to="/blog">Blog</Link>
-              </li>
+             
               <li class="nav-item">
                 <Link class="nav-link" to="/about">About</Link>
               </li>

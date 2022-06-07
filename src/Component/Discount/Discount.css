@@ -1,0 +1,14 @@
+
+.discount {
+    margin-top: 10%;
+} 
+.booking { 
+    background: #8383f3; 
+    color: white;
+} 
+a.booking {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
