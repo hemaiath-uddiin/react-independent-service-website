@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        " title": "SPECIES",
+        "desc": "Arctic Char, Brown Trout, Sea Trout, Atlantic Salmon",
+        "img": "https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?cs=...",
+        "price": "2000$"
+    },
+    {
+        "id": 2,
+        "titel": "Private Tour",
+        "desc": "We are a family owned and operated business in Iceland.  We offer priv...",
+        "img": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?cs=...",
+        "price": "5000$"
+    },
+    {
+        "id": 3,
+        "titel": "RIVERS and LAKES",
+        "desc": "The package is available right now enjoy the tour with your family boo...",
+        "img": "https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?cs=...",
+        "price": "1000$"
+    }
+]
